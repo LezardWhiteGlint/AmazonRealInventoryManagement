@@ -8,21 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		F95E43DD243B21D200C216A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E43DC243B21D200C216A8 /* AppDelegate.swift */; };
-		F95E43DF243B21D200C216A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E43DE243B21D200C216A8 /* ViewController.swift */; };
+		F95E43DF243B21D200C216A8 /* AmazonRealInventoryManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E43DE243B21D200C216A8 /* AmazonRealInventoryManagement.swift */; };
 		F95E43E2243B21D200C216A8 /* AmazonRealInventoryManagement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F95E43E0243B21D200C216A8 /* AmazonRealInventoryManagement.xcdatamodeld */; };
 		F95E43E4243B21D600C216A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F95E43E3243B21D600C216A8 /* Assets.xcassets */; };
 		F95E43E7243B21D600C216A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F95E43E5243B21D600C216A8 /* Main.storyboard */; };
+		F962B9AB243B5D3C00E826F2 /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F962B9AA243B5D3C00E826F2 /* Inventory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F95E43D9243B21D200C216A8 /* AmazonRealInventoryManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmazonRealInventoryManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95E43DC243B21D200C216A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F95E43DE243B21D200C216A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F95E43DE243B21D200C216A8 /* AmazonRealInventoryManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonRealInventoryManagement.swift; sourceTree = "<group>"; };
 		F95E43E1243B21D200C216A8 /* AmazonRealInventoryManagement.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AmazonRealInventoryManagement.xcdatamodel; sourceTree = "<group>"; };
 		F95E43E3243B21D600C216A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F95E43E6243B21D600C216A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F95E43E8243B21D600C216A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F95E43E9243B21D600C216A8 /* AmazonRealInventoryManagement.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AmazonRealInventoryManagement.entitlements; sourceTree = "<group>"; };
+		F962B9AA243B5D3C00E826F2 /* Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +58,8 @@
 			isa = PBXGroup;
 			children = (
 				F95E43DC243B21D200C216A8 /* AppDelegate.swift */,
-				F95E43DE243B21D200C216A8 /* ViewController.swift */,
+				F95E43DE243B21D200C216A8 /* AmazonRealInventoryManagement.swift */,
+				F962B9AA243B5D3C00E826F2 /* Inventory.swift */,
 				F95E43E3243B21D600C216A8 /* Assets.xcassets */,
 				F95E43E5243B21D600C216A8 /* Main.storyboard */,
 				F95E43E8243B21D600C216A8 /* Info.plist */,
@@ -137,7 +140,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F95E43E2243B21D200C216A8 /* AmazonRealInventoryManagement.xcdatamodeld in Sources */,
-				F95E43DF243B21D200C216A8 /* ViewController.swift in Sources */,
+				F962B9AB243B5D3C00E826F2 /* Inventory.swift in Sources */,
+				F95E43DF243B21D200C216A8 /* AmazonRealInventoryManagement.swift in Sources */,
 				F95E43DD243B21D200C216A8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -20,6 +20,15 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
     }
+    
+    static var persistentCOntainer:NSPersistentContainer{
+        return (NSApplication.shared.delegate as! AppDelegate).persistentContainer
+
+    }
+    
+    static var viewContext:NSManagedObjectContext{
+        return persistentCOntainer.viewContext
+    }
 
     // MARK: - Core Data stack
 
